@@ -1,0 +1,51 @@
+
+.box{
+    width: 1440px;
+    height: 700px;
+    background-color:#e7e3dd; 
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    
+}
+.container{
+    width: 1220px;
+    height: auto;
+    display: flex;
+    padding: 140px;
+    align-items: center;
+
+}
+h1{
+    font-weight: 900;
+    line-height: 112px;
+    font-size: 126px;
+    color: black;
+}
+.imagem{
+ width: 350px;
+ height: 350px;
+ border-radius: 175px;
+ margin: 100px;
+
+}
+.texto p{
+  font-size: 18px;
+    text-transform: uppercase;
+    line-height: 200px;
+
+}
+.texto h1{
+    font-size: 126px;
+    color: black;
+    letter-spacing: -2.17px;
+    line-height: 112px;
+}
+.botao a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0699a6;
+    padding: 18px 62px;
+   
+}
