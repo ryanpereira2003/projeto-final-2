@@ -29,7 +29,7 @@ body {
   width: 100%;
   max-width: 1024px;
   display: flex;
-  align-items: center;
+
  }
 
 /* IMAGEM DE PERFIL */
@@ -70,19 +70,26 @@ body {
   letter-spacing: 0px;
 }
 
-.texto .titulo {
+.texto0 .titulo {
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
   color: #000;
   letter-spacing: 0px;
 }
+.texto0 p, .texto1 p, .texto2 p, .texto3 p, .texto4 p{
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0px;
+margin-bottom: 40px;
 
+}
 /* BOTÃO */
 .texto a {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #0699a6;
+  background-color:#0699a6;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -117,6 +124,7 @@ body {
 .bloco-direita {
   max-width: 635px;
 
+
 }
 
 /* CONTEÚDO DOS BLOCOS */
@@ -128,7 +136,18 @@ body {
   gap: 10px;
   margin-bottom: 30px;
 }
-
+.content, .content1, .content2, .content3{
+ 
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+ 
+.content3 {
+  color: #0699A6;
+}
 .content p {
   font-weight: 400;
   font-size: 20px;
@@ -183,14 +202,47 @@ body {
   margin: 0 auto;
   flex-direction: column;
 }
+.lista ul {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+   justify-content: center;
+  gap:10px;
+}
+.rodape h2{
+font-weight: 900;
+font-size: 66px;
+line-height: 82px;
+letter-spacing: -1.14px;
+text-align: center;
+}
+.rodape p{
+color: #0699A6;
+font-weight: 900;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0px;
+text-align: center;
+}
 
 /* RESPONSIVIDADE BÁSICA */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
-
+  .box{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .texto a{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
   .texto h2 {
     font-size: 64px;
     line-height: 72px;
@@ -217,10 +269,5 @@ body {
     flex-direction: column;
     height: auto;
     gap: 20px;
-    
   }
-}
-.lista{
-    text-align: center;
-    
 }
