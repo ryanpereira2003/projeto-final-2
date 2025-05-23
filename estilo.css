@@ -1,8 +1,16 @@
 /* ===================== */
 /*        CABEÇALHO      */
 /* ===================== */
+:root{
+  /*---cores---*/
+  --bg-black:#000;
+  --color-white:#fff;
+  
+}
 
-
+*{
+  background-color: var(--color-black);
+}
 
 .container_cabecalho {
   display: flex;
