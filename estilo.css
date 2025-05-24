@@ -5,7 +5,26 @@
   /*---cores---*/
   --bg-black:#000;
   --color-white:#fff;
-  
+  --primary-color: #6EBD52;
+
+
+  /*---pixels---*/
+  --px8:8px;
+  --px16:16px;
+  --px24:24px;
+
+  /*---device---*/
+
+
+
+
+  /*---SEPARADOR SECAO---*/
+  --separador-desk:100px 100px;
+
+
+}
+.container{
+
 }
 
 *{
